@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="QuanLyBanMoHinh.BLL/QuanLyBanMoHinh.BLL.csproj" />
+  <Project Path="QuanLyBanMoHinh.DAL/QuanLyBanMoHinh.DAL.csproj" />
+  <Project Path="QuanLyBanMoHinh.GUI/QuanLyBanMoHinh.GUI.csproj" />
+</Solution>
