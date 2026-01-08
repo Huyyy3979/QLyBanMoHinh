@@ -1,0 +1,15 @@
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\QuanLyBanMoHinh.BLL.dll.config
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\QuanLyBanMoHinh.BLL.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\QuanLyBanMoHinh.BLL.pdb
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\EntityFramework.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\QuanLyBanMoHinh.DAL.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\QuanLyBanMoHinh.DAL.pdb
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\QuanLyBanMoHinh.DAL.dll.config
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\EntityFramework.xml
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\obj\Debug\QuanLyBanMoHinh.BLL.csproj.AssemblyReference.cache
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\obj\Debug\QuanLyBanMoHinh.BLL.csproj.CoreCompileInputs.cache
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\obj\Debug\QuanLyBa.2196CC23.Up2Date
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\obj\Debug\QuanLyBanMoHinh.BLL.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.BLL\obj\Debug\QuanLyBanMoHinh.BLL.pdb

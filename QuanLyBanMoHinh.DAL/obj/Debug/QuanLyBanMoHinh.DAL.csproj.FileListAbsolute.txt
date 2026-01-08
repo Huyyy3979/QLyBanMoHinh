@@ -1,0 +1,12 @@
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\bin\Debug\QuanLyBanMoHinh.DAL.dll.config
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\bin\Debug\QuanLyBanMoHinh.DAL.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\bin\Debug\QuanLyBanMoHinh.DAL.pdb
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\bin\Debug\EntityFramework.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\bin\Debug\EntityFramework.xml
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\obj\Debug\QuanLyBanMoHinh.DAL.csproj.AssemblyReference.cache
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\obj\Debug\QuanLyBanMoHinh.DAL.csproj.CoreCompileInputs.cache
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\obj\Debug\QuanLyBa.6E15C3A5.Up2Date
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\obj\Debug\QuanLyBanMoHinh.DAL.dll
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.DAL\obj\Debug\QuanLyBanMoHinh.DAL.pdb
