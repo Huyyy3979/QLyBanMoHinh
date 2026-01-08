@@ -18,6 +18,9 @@ namespace QuanLyBanMoHinh.GUI
         private void InitializeComponent()
         {
             this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblClose = new System.Windows.Forms.Label();
+            this.lblMinimize = new System.Windows.Forms.Label();
+            this.lblBell = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.grbInfo = new System.Windows.Forms.GroupBox();
             this.txtNgayNhap = new System.Windows.Forms.TextBox();
@@ -37,9 +40,6 @@ namespace QuanLyBanMoHinh.GUI
             this.btnNhapKho = new System.Windows.Forms.Button();
             this.grbList = new System.Windows.Forms.GroupBox();
             this.dgvData = new System.Windows.Forms.DataGridView();
-            this.lblClose = new System.Windows.Forms.Label();
-            this.lblMinimize = new System.Windows.Forms.Label();
-            this.lblBell = new System.Windows.Forms.Label();
             this.pnlHeader.SuspendLayout();
             this.grbInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numSoLuong)).BeginInit();
@@ -57,57 +57,63 @@ namespace QuanLyBanMoHinh.GUI
             this.pnlHeader.Controls.Add(this.lblTitle);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1200, 100);
+            this.pnlHeader.Size = new System.Drawing.Size(900, 81);
             this.pnlHeader.TabIndex = 0;
             // 
             // lblClose
             // 
-            this.lblClose.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            this.lblClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblClose.AutoSize = true;
             this.lblClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblClose.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblClose.ForeColor = System.Drawing.Color.White;
-            this.lblClose.Location = new System.Drawing.Point(1150, 10);
+            this.lblClose.Location = new System.Drawing.Point(862, 8);
+            this.lblClose.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblClose.Name = "lblClose";
-            this.lblClose.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblClose.Size = new System.Drawing.Size(35, 28);
+            this.lblClose.Padding = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblClose.Size = new System.Drawing.Size(28, 21);
             this.lblClose.TabIndex = 3;
             this.lblClose.Text = "X";
             // 
             // lblMinimize
             // 
-            this.lblMinimize.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            this.lblMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMinimize.AutoSize = true;
             this.lblMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblMinimize.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblMinimize.ForeColor = System.Drawing.Color.White;
-            this.lblMinimize.Location = new System.Drawing.Point(1110, 10);
+            this.lblMinimize.Location = new System.Drawing.Point(832, 8);
+            this.lblMinimize.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMinimize.Name = "lblMinimize";
-            this.lblMinimize.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.lblMinimize.Size = new System.Drawing.Size(30, 28);
+            this.lblMinimize.Padding = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMinimize.Size = new System.Drawing.Size(24, 21);
             this.lblMinimize.TabIndex = 2;
             this.lblMinimize.Text = "-";
             // 
             // lblBell
             // 
-            this.lblBell.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            this.lblBell.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBell.AutoSize = true;
             this.lblBell.Font = new System.Drawing.Font("Segoe UI", 16F);
-            this.lblBell.Location = new System.Drawing.Point(1060, 10);
+            this.lblBell.Location = new System.Drawing.Point(795, 8);
+            this.lblBell.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBell.Name = "lblBell";
-            this.lblBell.Size = new System.Drawing.Size(43, 37);
+            this.lblBell.Size = new System.Drawing.Size(40, 30);
             this.lblBell.TabIndex = 1;
             this.lblBell.Text = "🔔";
             // 
             // lblTitle
             // 
+            this.lblTitle.BackColor = System.Drawing.Color.Black;
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 28F, System.Drawing.FontStyle.Bold);
-            this.lblTitle.ForeColor = System.Drawing.Color.Black;
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(0, 0);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(1100, 100);
+            this.lblTitle.Size = new System.Drawing.Size(900, 81);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Nhập kho";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -127,64 +133,73 @@ namespace QuanLyBanMoHinh.GUI
             this.grbInfo.Controls.Add(this.txtMaPN);
             this.grbInfo.Controls.Add(this.lblMaPN);
             this.grbInfo.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.grbInfo.Location = new System.Drawing.Point(20, 120);
+            this.grbInfo.ForeColor = System.Drawing.Color.White;
+            this.grbInfo.Location = new System.Drawing.Point(15, 98);
+            this.grbInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbInfo.Name = "grbInfo";
-            this.grbInfo.Size = new System.Drawing.Size(430, 320);
+            this.grbInfo.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbInfo.Size = new System.Drawing.Size(322, 260);
             this.grbInfo.TabIndex = 1;
             this.grbInfo.TabStop = false;
             this.grbInfo.Text = "Thông tin phiếu nhập";
             // 
             // txtNgayNhap
             // 
-            this.txtNgayNhap.Location = new System.Drawing.Point(160, 267);
+            this.txtNgayNhap.Location = new System.Drawing.Point(120, 217);
+            this.txtNgayNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNgayNhap.Name = "txtNgayNhap";
             this.txtNgayNhap.ReadOnly = true;
-            this.txtNgayNhap.Size = new System.Drawing.Size(250, 30);
+            this.txtNgayNhap.Size = new System.Drawing.Size(188, 25);
             this.txtNgayNhap.TabIndex = 11;
             // 
             // lblNgayNhap
             // 
             this.lblNgayNhap.AutoSize = true;
-            this.lblNgayNhap.Location = new System.Drawing.Point(20, 270);
+            this.lblNgayNhap.Location = new System.Drawing.Point(15, 219);
+            this.lblNgayNhap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNgayNhap.Name = "lblNgayNhap";
-            this.lblNgayNhap.Size = new System.Drawing.Size(98, 23);
+            this.lblNgayNhap.Size = new System.Drawing.Size(79, 19);
             this.lblNgayNhap.TabIndex = 10;
             this.lblNgayNhap.Text = "Ngày nhập:";
             // 
             // txtGiaNhap
             // 
-            this.txtGiaNhap.Location = new System.Drawing.Point(160, 222);
+            this.txtGiaNhap.Location = new System.Drawing.Point(120, 180);
+            this.txtGiaNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtGiaNhap.Name = "txtGiaNhap";
-            this.txtGiaNhap.Size = new System.Drawing.Size(160, 30);
+            this.txtGiaNhap.Size = new System.Drawing.Size(121, 25);
             this.txtGiaNhap.TabIndex = 9;
             // 
             // lblGiaNhap
             // 
             this.lblGiaNhap.AutoSize = true;
-            this.lblGiaNhap.Location = new System.Drawing.Point(20, 225);
+            this.lblGiaNhap.Location = new System.Drawing.Point(15, 183);
+            this.lblGiaNhap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGiaNhap.Name = "lblGiaNhap";
-            this.lblGiaNhap.Size = new System.Drawing.Size(95, 23);
+            this.lblGiaNhap.Size = new System.Drawing.Size(77, 19);
             this.lblGiaNhap.TabIndex = 8;
             this.lblGiaNhap.Text = "* Giá nhập:";
             // 
             // numSoLuong
             // 
-            this.numSoLuong.Location = new System.Drawing.Point(160, 178);
+            this.numSoLuong.Location = new System.Drawing.Point(120, 145);
+            this.numSoLuong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.numSoLuong.Maximum = new decimal(new int[] {
             1000000,
             0,
             0,
             0});
             this.numSoLuong.Name = "numSoLuong";
-            this.numSoLuong.Size = new System.Drawing.Size(80, 30);
+            this.numSoLuong.Size = new System.Drawing.Size(60, 25);
             this.numSoLuong.TabIndex = 7;
             // 
             // lblSoLuong
             // 
             this.lblSoLuong.AutoSize = true;
-            this.lblSoLuong.Location = new System.Drawing.Point(20, 180);
+            this.lblSoLuong.Location = new System.Drawing.Point(15, 146);
+            this.lblSoLuong.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSoLuong.Name = "lblSoLuong";
-            this.lblSoLuong.Size = new System.Drawing.Size(94, 23);
+            this.lblSoLuong.Size = new System.Drawing.Size(76, 19);
             this.lblSoLuong.TabIndex = 6;
             this.lblSoLuong.Text = "* Số lượng:";
             // 
@@ -192,18 +207,20 @@ namespace QuanLyBanMoHinh.GUI
             // 
             this.cboTenGundam.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTenGundam.FormattingEnabled = true;
-            this.cboTenGundam.Location = new System.Drawing.Point(160, 132);
+            this.cboTenGundam.Location = new System.Drawing.Point(120, 107);
+            this.cboTenGundam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboTenGundam.Name = "cboTenGundam";
-            this.cboTenGundam.Size = new System.Drawing.Size(250, 31);
+            this.cboTenGundam.Size = new System.Drawing.Size(188, 25);
             this.cboTenGundam.TabIndex = 5;
             this.cboTenGundam.SelectedIndexChanged += new System.EventHandler(this.cboGundam_SelectedIndexChanged);
             // 
             // lblTenGundam
             // 
             this.lblTenGundam.AutoSize = true;
-            this.lblTenGundam.Location = new System.Drawing.Point(20, 135);
+            this.lblTenGundam.Location = new System.Drawing.Point(15, 110);
+            this.lblTenGundam.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTenGundam.Name = "lblTenGundam";
-            this.lblTenGundam.Size = new System.Drawing.Size(121, 23);
+            this.lblTenGundam.Size = new System.Drawing.Size(98, 19);
             this.lblTenGundam.TabIndex = 4;
             this.lblTenGundam.Text = "* Tên linh kiện:";
             // 
@@ -211,34 +228,38 @@ namespace QuanLyBanMoHinh.GUI
             // 
             this.cboMaGundam.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboMaGundam.FormattingEnabled = true;
-            this.cboMaGundam.Location = new System.Drawing.Point(160, 87);
+            this.cboMaGundam.Location = new System.Drawing.Point(120, 71);
+            this.cboMaGundam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboMaGundam.Name = "cboMaGundam";
-            this.cboMaGundam.Size = new System.Drawing.Size(250, 31);
+            this.cboMaGundam.Size = new System.Drawing.Size(188, 25);
             this.cboMaGundam.TabIndex = 3;
             this.cboMaGundam.SelectedIndexChanged += new System.EventHandler(this.cboGundam_SelectedIndexChanged);
             // 
             // lblMaGundam
             // 
             this.lblMaGundam.AutoSize = true;
-            this.lblMaGundam.Location = new System.Drawing.Point(20, 90);
+            this.lblMaGundam.Location = new System.Drawing.Point(15, 73);
+            this.lblMaGundam.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMaGundam.Name = "lblMaGundam";
-            this.lblMaGundam.Size = new System.Drawing.Size(119, 23);
+            this.lblMaGundam.Size = new System.Drawing.Size(97, 19);
             this.lblMaGundam.TabIndex = 2;
             this.lblMaGundam.Text = "* Mã linh kiện:";
             // 
             // txtMaPN
             // 
-            this.txtMaPN.Location = new System.Drawing.Point(160, 42);
+            this.txtMaPN.Location = new System.Drawing.Point(120, 34);
+            this.txtMaPN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMaPN.Name = "txtMaPN";
-            this.txtMaPN.Size = new System.Drawing.Size(120, 30);
+            this.txtMaPN.Size = new System.Drawing.Size(91, 25);
             this.txtMaPN.TabIndex = 1;
             // 
             // lblMaPN
             // 
             this.lblMaPN.AutoSize = true;
-            this.lblMaPN.Location = new System.Drawing.Point(20, 45);
+            this.lblMaPN.Location = new System.Drawing.Point(15, 37);
+            this.lblMaPN.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMaPN.Name = "lblMaPN";
-            this.lblMaPN.Size = new System.Drawing.Size(130, 23);
+            this.lblMaPN.Size = new System.Drawing.Size(105, 19);
             this.lblMaPN.TabIndex = 0;
             this.lblMaPN.Text = "Mã phiếu nhập:";
             // 
@@ -247,31 +268,38 @@ namespace QuanLyBanMoHinh.GUI
             this.grbActions.Controls.Add(this.btnLamMoi);
             this.grbActions.Controls.Add(this.btnNhapKho);
             this.grbActions.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.grbActions.Location = new System.Drawing.Point(180, 460);
+            this.grbActions.ForeColor = System.Drawing.Color.White;
+            this.grbActions.Location = new System.Drawing.Point(135, 374);
+            this.grbActions.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbActions.Name = "grbActions";
-            this.grbActions.Size = new System.Drawing.Size(270, 100);
+            this.grbActions.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbActions.Size = new System.Drawing.Size(202, 81);
             this.grbActions.TabIndex = 2;
             this.grbActions.TabStop = false;
             this.grbActions.Text = "Tác vụ";
             // 
             // btnLamMoi
             // 
-            this.btnLamMoi.Location = new System.Drawing.Point(140, 40);
+            this.btnLamMoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnLamMoi.Location = new System.Drawing.Point(105, 32);
+            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(110, 40);
+            this.btnLamMoi.Size = new System.Drawing.Size(82, 32);
             this.btnLamMoi.TabIndex = 1;
             this.btnLamMoi.Text = "Làm mới";
-            this.btnLamMoi.UseVisualStyleBackColor = true;
+            this.btnLamMoi.UseVisualStyleBackColor = false;
             this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // btnNhapKho
             // 
-            this.btnNhapKho.Location = new System.Drawing.Point(20, 40);
+            this.btnNhapKho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btnNhapKho.Location = new System.Drawing.Point(15, 32);
+            this.btnNhapKho.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNhapKho.Name = "btnNhapKho";
-            this.btnNhapKho.Size = new System.Drawing.Size(110, 40);
+            this.btnNhapKho.Size = new System.Drawing.Size(82, 32);
             this.btnNhapKho.TabIndex = 0;
             this.btnNhapKho.Text = "Nhập kho";
-            this.btnNhapKho.UseVisualStyleBackColor = true;
+            this.btnNhapKho.UseVisualStyleBackColor = false;
             this.btnNhapKho.Click += new System.EventHandler(this.btnNhapKho_Click);
             // 
             // grbList
@@ -281,9 +309,12 @@ namespace QuanLyBanMoHinh.GUI
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grbList.Controls.Add(this.dgvData);
             this.grbList.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.grbList.Location = new System.Drawing.Point(470, 120);
+            this.grbList.ForeColor = System.Drawing.Color.White;
+            this.grbList.Location = new System.Drawing.Point(352, 98);
+            this.grbList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbList.Name = "grbList";
-            this.grbList.Size = new System.Drawing.Size(610, 460);
+            this.grbList.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbList.Size = new System.Drawing.Size(458, 374);
             this.grbList.TabIndex = 3;
             this.grbList.TabStop = false;
             this.grbList.Text = "Danh sách phiếu nhập";
@@ -297,31 +328,34 @@ namespace QuanLyBanMoHinh.GUI
             this.dgvData.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvData.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvData.Location = new System.Drawing.Point(3, 26);
+            this.dgvData.Location = new System.Drawing.Point(2, 20);
+            this.dgvData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvData.Name = "dgvData";
             this.dgvData.ReadOnly = true;
             this.dgvData.RowHeadersVisible = false;
             this.dgvData.RowHeadersWidth = 51;
             this.dgvData.RowTemplate.Height = 24;
             this.dgvData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvData.Size = new System.Drawing.Size(604, 431);
+            this.dgvData.Size = new System.Drawing.Size(454, 352);
             this.dgvData.TabIndex = 0;
             // 
             // FrmPhieuNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.ClientSize = new System.Drawing.Size(900, 569);
             this.Controls.Add(this.grbList);
             this.Controls.Add(this.grbActions);
             this.Controls.Add(this.grbInfo);
             this.Controls.Add(this.pnlHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmPhieuNhap";
             this.Text = "Nhập kho";
             this.Load += new System.EventHandler(this.FrmPhieuNhap_Load);
             this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
             this.grbInfo.ResumeLayout(false);
             this.grbInfo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numSoLuong)).EndInit();

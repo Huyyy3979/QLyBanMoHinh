@@ -18,36 +18,36 @@ namespace QuanLyBanMoHinh.GUI
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlFilters = new System.Windows.Forms.Panel();
-            this.dtpDay = new System.Windows.Forms.DateTimePicker();
-            this.cboMonth = new System.Windows.Forms.ComboBox();
-            this.numYear = new System.Windows.Forms.NumericUpDown();
-            this.lblFilterDay = new System.Windows.Forms.Label();
-            this.lblFilterMonth = new System.Windows.Forms.Label();
             this.lblFilterYear = new System.Windows.Forms.Label();
+            this.lblFilterMonth = new System.Windows.Forms.Label();
+            this.lblFilterDay = new System.Windows.Forms.Label();
+            this.numYear = new System.Windows.Forms.NumericUpDown();
+            this.cboMonth = new System.Windows.Forms.ComboBox();
+            this.dtpDay = new System.Windows.Forms.DateTimePicker();
             this.pnlCards = new System.Windows.Forms.Panel();
-            this.pnlToday = new System.Windows.Forms.Panel();
-            this.lblTodayVal = new System.Windows.Forms.Label();
-            this.lblTodayTitle = new System.Windows.Forms.Label();
-            this.pnlMonth = new System.Windows.Forms.Panel();
-            this.lblMonthVal = new System.Windows.Forms.Label();
-            this.lblMonthTitle = new System.Windows.Forms.Label();
             this.pnlYear = new System.Windows.Forms.Panel();
             this.lblYearVal = new System.Windows.Forms.Label();
             this.lblYearTitle = new System.Windows.Forms.Label();
+            this.pnlMonth = new System.Windows.Forms.Panel();
+            this.lblMonthVal = new System.Windows.Forms.Label();
+            this.lblMonthTitle = new System.Windows.Forms.Label();
+            this.pnlToday = new System.Windows.Forms.Panel();
+            this.lblTodayVal = new System.Windows.Forms.Label();
+            this.lblTodayTitle = new System.Windows.Forms.Label();
             this.dgvData = new System.Windows.Forms.DataGridView();
             this.pnlHeader.SuspendLayout();
             this.pnlFilters.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numYear)).BeginInit();
             this.pnlCards.SuspendLayout();
-            this.pnlToday.SuspendLayout();
-            this.pnlMonth.SuspendLayout();
             this.pnlYear.SuspendLayout();
+            this.pnlMonth.SuspendLayout();
+            this.pnlToday.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlHeader
             // 
-            this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.pnlHeader.BackColor = System.Drawing.Color.Black;
             this.pnlHeader.Controls.Add(this.label1);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
@@ -62,7 +62,7 @@ namespace QuanLyBanMoHinh.GUI
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(20, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(437, 41);
+            this.label1.Size = new System.Drawing.Size(378, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "BÁO CÁO DOANH THU CHI TIẾT";
             // 
@@ -81,45 +81,15 @@ namespace QuanLyBanMoHinh.GUI
             this.pnlFilters.Size = new System.Drawing.Size(1000, 70);
             this.pnlFilters.TabIndex = 1;
             // 
-            // dtpDay
+            // lblFilterYear
             // 
-            this.dtpDay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDay.Location = new System.Drawing.Point(100, 25);
-            this.dtpDay.Name = "dtpDay";
-            this.dtpDay.Size = new System.Drawing.Size(150, 22);
-            this.dtpDay.TabIndex = 0;
-            this.dtpDay.ValueChanged += new System.EventHandler(this.Filter_Changed);
-            // 
-            // cboMonth
-            // 
-            this.cboMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboMonth.FormattingEnabled = true;
-            this.cboMonth.Location = new System.Drawing.Point(350, 25);
-            this.cboMonth.Name = "cboMonth";
-            this.cboMonth.Size = new System.Drawing.Size(120, 24);
-            this.cboMonth.TabIndex = 1;
-            this.cboMonth.SelectedIndexChanged += new System.EventHandler(this.Filter_Changed);
-            // 
-            // numYear
-            // 
-            this.numYear.Location = new System.Drawing.Point(550, 25);
-            this.numYear.Maximum = new decimal(new int[] { 2100, 0, 0, 0 });
-            this.numYear.Minimum = new decimal(new int[] { 2000, 0, 0, 0 });
-            this.numYear.Name = "numYear";
-            this.numYear.Size = new System.Drawing.Size(100, 22);
-            this.numYear.TabIndex = 2;
-            this.numYear.Value = new decimal(new int[] { 2024, 0, 0, 0 });
-            this.numYear.ValueChanged += new System.EventHandler(this.Filter_Changed);
-            // 
-            // lblFilterDay
-            // 
-            this.lblFilterDay.AutoSize = true;
-            this.lblFilterDay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblFilterDay.Location = new System.Drawing.Point(20, 26);
-            this.lblFilterDay.Name = "lblFilterDay";
-            this.lblFilterDay.Size = new System.Drawing.Size(74, 20);
-            this.lblFilterDay.TabIndex = 3;
-            this.lblFilterDay.Text = "Theo ngày:";
+            this.lblFilterYear.AutoSize = true;
+            this.lblFilterYear.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblFilterYear.Location = new System.Drawing.Point(475, 26);
+            this.lblFilterYear.Name = "lblFilterYear";
+            this.lblFilterYear.Size = new System.Drawing.Size(65, 15);
+            this.lblFilterYear.TabIndex = 5;
+            this.lblFilterYear.Text = "Theo năm:";
             // 
             // lblFilterMonth
             // 
@@ -127,19 +97,61 @@ namespace QuanLyBanMoHinh.GUI
             this.lblFilterMonth.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblFilterMonth.Location = new System.Drawing.Point(265, 26);
             this.lblFilterMonth.Name = "lblFilterMonth";
-            this.lblFilterMonth.Size = new System.Drawing.Size(81, 20);
+            this.lblFilterMonth.Size = new System.Drawing.Size(73, 15);
             this.lblFilterMonth.TabIndex = 4;
             this.lblFilterMonth.Text = "Theo tháng:";
             // 
-            // lblFilterYear
+            // lblFilterDay
             // 
-            this.lblFilterYear.AutoSize = true;
-            this.lblFilterYear.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblFilterYear.Location = new System.Drawing.Point(475, 26);
-            this.lblFilterYear.Name = "lblFilterYear";
-            this.lblFilterYear.Size = new System.Drawing.Size(74, 20);
-            this.lblFilterYear.TabIndex = 5;
-            this.lblFilterYear.Text = "Theo năm:";
+            this.lblFilterDay.AutoSize = true;
+            this.lblFilterDay.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblFilterDay.Location = new System.Drawing.Point(20, 26);
+            this.lblFilterDay.Name = "lblFilterDay";
+            this.lblFilterDay.Size = new System.Drawing.Size(67, 15);
+            this.lblFilterDay.TabIndex = 3;
+            this.lblFilterDay.Text = "Theo ngày:";
+            // 
+            // numYear
+            // 
+            this.numYear.Location = new System.Drawing.Point(550, 25);
+            this.numYear.Maximum = new decimal(new int[] {
+            2100,
+            0,
+            0,
+            0});
+            this.numYear.Minimum = new decimal(new int[] {
+            2000,
+            0,
+            0,
+            0});
+            this.numYear.Name = "numYear";
+            this.numYear.Size = new System.Drawing.Size(100, 20);
+            this.numYear.TabIndex = 2;
+            this.numYear.Value = new decimal(new int[] {
+            2024,
+            0,
+            0,
+            0});
+            this.numYear.ValueChanged += new System.EventHandler(this.Filter_Changed);
+            // 
+            // cboMonth
+            // 
+            this.cboMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboMonth.FormattingEnabled = true;
+            this.cboMonth.Location = new System.Drawing.Point(350, 25);
+            this.cboMonth.Name = "cboMonth";
+            this.cboMonth.Size = new System.Drawing.Size(120, 21);
+            this.cboMonth.TabIndex = 1;
+            this.cboMonth.SelectedIndexChanged += new System.EventHandler(this.Filter_Changed);
+            // 
+            // dtpDay
+            // 
+            this.dtpDay.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDay.Location = new System.Drawing.Point(100, 25);
+            this.dtpDay.Name = "dtpDay";
+            this.dtpDay.Size = new System.Drawing.Size(150, 20);
+            this.dtpDay.TabIndex = 0;
+            this.dtpDay.ValueChanged += new System.EventHandler(this.Filter_Changed);
             // 
             // pnlCards
             // 
@@ -152,70 +164,6 @@ namespace QuanLyBanMoHinh.GUI
             this.pnlCards.Padding = new System.Windows.Forms.Padding(10);
             this.pnlCards.Size = new System.Drawing.Size(1000, 140);
             this.pnlCards.TabIndex = 2;
-            // 
-            // pnlToday
-            // 
-            this.pnlToday.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
-            this.pnlToday.Controls.Add(this.lblTodayVal);
-            this.pnlToday.Controls.Add(this.lblTodayTitle);
-            this.pnlToday.Location = new System.Drawing.Point(20, 20);
-            this.pnlToday.Name = "pnlToday";
-            this.pnlToday.Size = new System.Drawing.Size(300, 100);
-            this.pnlToday.TabIndex = 0;
-            // 
-            // lblTodayVal
-            // 
-            this.lblTodayVal.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.lblTodayVal.ForeColor = System.Drawing.Color.White;
-            this.lblTodayVal.Location = new System.Drawing.Point(0, 45);
-            this.lblTodayVal.Name = "lblTodayVal";
-            this.lblTodayVal.Size = new System.Drawing.Size(300, 45);
-            this.lblTodayVal.TabIndex = 1;
-            this.lblTodayVal.Text = "0 VND";
-            this.lblTodayVal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblTodayTitle
-            // 
-            this.lblTodayTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblTodayTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTodayTitle.Location = new System.Drawing.Point(0, 10);
-            this.lblTodayTitle.Name = "lblTodayTitle";
-            this.lblTodayTitle.Size = new System.Drawing.Size(300, 30);
-            this.lblTodayTitle.TabIndex = 0;
-            this.lblTodayTitle.Text = "HÔM NAY";
-            this.lblTodayTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pnlMonth
-            // 
-            this.pnlMonth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(126)))), ((int)(((byte)(34)))));
-            this.pnlMonth.Controls.Add(this.lblMonthVal);
-            this.pnlMonth.Controls.Add(this.lblMonthTitle);
-            this.pnlMonth.Location = new System.Drawing.Point(340, 20);
-            this.pnlMonth.Name = "pnlMonth";
-            this.pnlMonth.Size = new System.Drawing.Size(300, 100);
-            this.pnlMonth.TabIndex = 1;
-            // 
-            // lblMonthVal
-            // 
-            this.lblMonthVal.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.lblMonthVal.ForeColor = System.Drawing.Color.White;
-            this.lblMonthVal.Location = new System.Drawing.Point(0, 45);
-            this.lblMonthVal.Name = "lblMonthVal";
-            this.lblMonthVal.Size = new System.Drawing.Size(300, 45);
-            this.lblMonthVal.TabIndex = 1;
-            this.lblMonthVal.Text = "0 VND";
-            this.lblMonthVal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblMonthTitle
-            // 
-            this.lblMonthTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.lblMonthTitle.ForeColor = System.Drawing.Color.White;
-            this.lblMonthTitle.Location = new System.Drawing.Point(0, 10);
-            this.lblMonthTitle.Name = "lblMonthTitle";
-            this.lblMonthTitle.Size = new System.Drawing.Size(300, 30);
-            this.lblMonthTitle.TabIndex = 0;
-            this.lblMonthTitle.Text = "THÁNG NÀY";
-            this.lblMonthTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnlYear
             // 
@@ -249,11 +197,75 @@ namespace QuanLyBanMoHinh.GUI
             this.lblYearTitle.Text = "NĂM NAY";
             this.lblYearTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pnlMonth
+            // 
+            this.pnlMonth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(126)))), ((int)(((byte)(34)))));
+            this.pnlMonth.Controls.Add(this.lblMonthVal);
+            this.pnlMonth.Controls.Add(this.lblMonthTitle);
+            this.pnlMonth.Location = new System.Drawing.Point(340, 20);
+            this.pnlMonth.Name = "pnlMonth";
+            this.pnlMonth.Size = new System.Drawing.Size(300, 100);
+            this.pnlMonth.TabIndex = 1;
+            // 
+            // lblMonthVal
+            // 
+            this.lblMonthVal.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
+            this.lblMonthVal.ForeColor = System.Drawing.Color.White;
+            this.lblMonthVal.Location = new System.Drawing.Point(0, 45);
+            this.lblMonthVal.Name = "lblMonthVal";
+            this.lblMonthVal.Size = new System.Drawing.Size(300, 45);
+            this.lblMonthVal.TabIndex = 1;
+            this.lblMonthVal.Text = "0 VND";
+            this.lblMonthVal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblMonthTitle
+            // 
+            this.lblMonthTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.lblMonthTitle.ForeColor = System.Drawing.Color.White;
+            this.lblMonthTitle.Location = new System.Drawing.Point(0, 10);
+            this.lblMonthTitle.Name = "lblMonthTitle";
+            this.lblMonthTitle.Size = new System.Drawing.Size(300, 30);
+            this.lblMonthTitle.TabIndex = 0;
+            this.lblMonthTitle.Text = "THÁNG NÀY";
+            this.lblMonthTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pnlToday
+            // 
+            this.pnlToday.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
+            this.pnlToday.Controls.Add(this.lblTodayVal);
+            this.pnlToday.Controls.Add(this.lblTodayTitle);
+            this.pnlToday.Location = new System.Drawing.Point(20, 20);
+            this.pnlToday.Name = "pnlToday";
+            this.pnlToday.Size = new System.Drawing.Size(300, 100);
+            this.pnlToday.TabIndex = 0;
+            // 
+            // lblTodayVal
+            // 
+            this.lblTodayVal.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
+            this.lblTodayVal.ForeColor = System.Drawing.Color.White;
+            this.lblTodayVal.Location = new System.Drawing.Point(0, 45);
+            this.lblTodayVal.Name = "lblTodayVal";
+            this.lblTodayVal.Size = new System.Drawing.Size(300, 45);
+            this.lblTodayVal.TabIndex = 1;
+            this.lblTodayVal.Text = "0 VND";
+            this.lblTodayVal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblTodayTitle
+            // 
+            this.lblTodayTitle.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.lblTodayTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTodayTitle.Location = new System.Drawing.Point(0, 10);
+            this.lblTodayTitle.Name = "lblTodayTitle";
+            this.lblTodayTitle.Size = new System.Drawing.Size(300, 30);
+            this.lblTodayTitle.TabIndex = 0;
+            this.lblTodayTitle.Text = "HÔM NAY";
+            this.lblTodayTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // dgvData
             // 
             this.dgvData.AllowUserToAddRows = false;
             this.dgvData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvData.BackgroundColor = System.Drawing.Color.White;
+            this.dgvData.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.dgvData.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvData.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -281,11 +293,12 @@ namespace QuanLyBanMoHinh.GUI
             this.pnlFilters.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numYear)).EndInit();
             this.pnlCards.ResumeLayout(false);
-            this.pnlToday.ResumeLayout(false);
-            this.pnlMonth.ResumeLayout(false);
             this.pnlYear.ResumeLayout(false);
+            this.pnlMonth.ResumeLayout(false);
+            this.pnlToday.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).EndInit();
             this.ResumeLayout(false);
+
         }
 
         private System.Windows.Forms.Panel pnlHeader;

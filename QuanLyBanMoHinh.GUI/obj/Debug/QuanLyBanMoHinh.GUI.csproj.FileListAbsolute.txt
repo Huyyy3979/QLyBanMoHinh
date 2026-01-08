@@ -33,3 +33,4 @@ D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.GUI\obj\Debug\QuanLyBanMoHinh.GUI.csproj.Co
 D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.GUI\obj\Debug\QuanLyBa.48F2C00D.Up2Date
 D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.GUI\obj\Debug\QuanLyBanMoHinh.GUI.exe
 D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.GUI\obj\Debug\QuanLyBanMoHinh.GUI.pdb
+D:\qlmh\QLyBanMoHinh\QuanLyBanMoHinh.GUI\obj\Debug\QuanLyBanMoHinh.GUI.FrmDoanhThu.resources

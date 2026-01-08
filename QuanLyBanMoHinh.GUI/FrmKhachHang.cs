@@ -182,5 +182,10 @@ namespace QuanLyBanMoHinh.GUI
             }
             return true;
         }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
