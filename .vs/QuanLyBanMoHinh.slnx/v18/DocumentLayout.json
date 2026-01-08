@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\qlmh\\QLyBanMoHinh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|d:\\qlmh\\qlybanmohinh\\quanlybanmohinh.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|solutionrelative:quanlybanmohinh.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|D:\\qlmh\\QLyBanMoHinh\\quanlybanmohinh.gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|solutionrelative:quanlybanmohinh.gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|D:\\qlmh\\QLyBanMoHinh\\quanlybanmohinh.gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|solutionrelative:quanlybanmohinh.gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|d:\\qlmh\\qlybanmohinh\\quanlybanmohinh.gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|solutionrelative:quanlybanmohinh.gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|D:\\qlmh\\QLyBanMoHinh\\quanlybanmohinh.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|solutionrelative:quanlybanmohinh.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|D:\\qlmh\\QLyBanMoHinh\\quanlybanmohinh.gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|solutionrelative:quanlybanmohinh.gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|d:\\qlmh\\qlybanmohinh\\quanlybanmohinh.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7D2CC920-8CC2-4C15-A97B-0800A289C75B}|QuanLyBanMoHinh.GUI\\QuanLyBanMoHinh.GUI.csproj|solutionrelative:quanlybanmohinh.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,24 +38,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmMain.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.cs",
               "DocumentMoniker": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\FrmMain.cs",
               "RelativeDocumentMoniker": "QuanLyBanMoHinh.GUI\\FrmMain.cs",
-              "ToolTip": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\FrmMain.cs [Design]",
-              "RelativeToolTip": "QuanLyBanMoHinh.GUI\\FrmMain.cs [Design]",
+              "ToolTip": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\FrmMain.cs*",
+              "RelativeToolTip": "QuanLyBanMoHinh.GUI\\FrmMain.cs*",
+              "ViewState": "AgIAAMwAAAAAAAAAAAApwNoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T08:17:33.012Z"
+              "WhenOpened": "2026-01-08T11:43:08.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\FrmMain.cs",
+              "RelativeDocumentMoniker": "QuanLyBanMoHinh.GUI\\FrmMain.cs",
+              "ToolTip": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\FrmMain.cs [Design]*",
+              "RelativeToolTip": "QuanLyBanMoHinh.GUI\\FrmMain.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T08:17:33.012Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyBanMoHinh.GUI\\Form1.cs",
               "ToolTip": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\Form1.cs",
               "RelativeToolTip": "QuanLyBanMoHinh.GUI\\Form1.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAqwEQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAhwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T07:59:55.874Z",
               "EditorCaption": ""
@@ -65,11 +83,12 @@
               "ToolTip": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\FrmKhachHang.cs [Design]",
               "RelativeToolTip": "QuanLyBanMoHinh.GUI\\FrmKhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T10:40:59.235Z"
+              "WhenOpened": "2026-01-02T10:40:59.235Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\qlmh\\QLyBanMoHinh\\QuanLyBanMoHinh.GUI\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyBanMoHinh.GUI\\Form1.cs",
